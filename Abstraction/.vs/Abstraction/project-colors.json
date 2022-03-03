@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "06ec1028-bb12-4a7f-870c-0a4b96eec92e": {
+      "ProjectGuid": "06ec1028-bb12-4a7f-870c-0a4b96eec92e",
+      "DisplayName": "Abstraction",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

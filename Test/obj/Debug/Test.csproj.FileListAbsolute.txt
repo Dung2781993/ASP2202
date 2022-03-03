@@ -1,0 +1,8 @@
+D:\Working\src\ASP2202\Test\bin\Debug\Test.exe.config
+D:\Working\src\ASP2202\Test\bin\Debug\Test.exe
+D:\Working\src\ASP2202\Test\bin\Debug\Test.pdb
+D:\Working\src\ASP2202\Test\obj\Debug\Test.csproj.AssemblyReference.cache
+D:\Working\src\ASP2202\Test\obj\Debug\Test.csproj.SuggestedBindingRedirects.cache
+D:\Working\src\ASP2202\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+D:\Working\src\ASP2202\Test\obj\Debug\Test.exe
+D:\Working\src\ASP2202\Test\obj\Debug\Test.pdb
