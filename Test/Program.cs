@@ -11,13 +11,19 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            var result = new List<int>();
-            int input = 6;
-            for(var i = 0; i < input; i++)
-            {
-                result.Add(getFibonaci(i));
-            }
-            Console.WriteLine(result);
+            //var result = new List<int>();
+            //int input = 6;
+            //for(var i = 0; i < input; i++)
+            //{
+            //    result.Add(getFibonaci(i));
+            //}
+            //Console.WriteLine(result);
+
+            var arr = new int[] { 1, 1, 2, 3, 4};
+            var result = checkDuplicated(arr);
+
+
+
             Console.WriteLine();
         }
 
@@ -28,7 +34,7 @@ namespace Test
             return getFibonaci(n - 1) + getFibonaci(n - 2);
         }
 
-        public bool checkDuplicated(int [] arr)
+        public static bool checkDuplicated(int [] arr)
         {
             var hashTable = new Hashtable();
 
@@ -36,15 +42,14 @@ namespace Test
             {
                 if (hashTable.ContainsKey(item))
                 {
-                    return false;
+                    return true;
                 } else
                 {
                     hashTable.Add(item, 1);
                 }
             }
 
-            return true;
-
+            return false;
         }
     }
 }
