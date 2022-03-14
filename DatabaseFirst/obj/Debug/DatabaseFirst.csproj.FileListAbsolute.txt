@@ -1,0 +1,13 @@
+D:\Working\src\ASP2202\DatabaseFirst\bin\Debug\DatabaseFirst.exe.config
+D:\Working\src\ASP2202\DatabaseFirst\bin\Debug\DatabaseFirst.exe
+D:\Working\src\ASP2202\DatabaseFirst\bin\Debug\DatabaseFirst.pdb
+D:\Working\src\ASP2202\DatabaseFirst\bin\Debug\EntityFramework.dll
+D:\Working\src\ASP2202\DatabaseFirst\bin\Debug\EntityFramework.SqlServer.dll
+D:\Working\src\ASP2202\DatabaseFirst\bin\Debug\EntityFramework.xml
+D:\Working\src\ASP2202\DatabaseFirst\bin\Debug\EntityFramework.SqlServer.xml
+D:\Working\src\ASP2202\DatabaseFirst\obj\Debug\DatabaseFirst.csproj.AssemblyReference.cache
+D:\Working\src\ASP2202\DatabaseFirst\obj\Debug\DatabaseFirst.csproj.SuggestedBindingRedirects.cache
+D:\Working\src\ASP2202\DatabaseFirst\obj\Debug\DatabaseFirst.csproj.CoreCompileInputs.cache
+D:\Working\src\ASP2202\DatabaseFirst\obj\Debug\DatabaseFirst.csproj.CopyComplete
+D:\Working\src\ASP2202\DatabaseFirst\obj\Debug\DatabaseFirst.exe
+D:\Working\src\ASP2202\DatabaseFirst\obj\Debug\DatabaseFirst.pdb
