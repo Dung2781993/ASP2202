@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="ModelFirstDemo" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="ModelFirstDemoContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Product" EntityType="ModelFirstDemo.Product" />
+    <EntitySet Name="Categories" EntityType="ModelFirstDemo.Category" />
+    <AssociationSet Name="CategoryProduct" Association="ModelFirstDemo.CategoryProduct">
+      <End Role="Category" EntitySet="Categories" />
+      <End Role="Product" EntitySet="Product" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" annotation:StoreGeneratedPattern="None" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="Model_Year" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Category" Relationship="ModelFirstDemo.CategoryProduct" FromRole="Product" ToRole="Category" />
+    <Property Name="CategoryId" Type="Guid" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" annotation:StoreGeneratedPattern="None" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <NavigationProperty Name="Products" Relationship="ModelFirstDemo.CategoryProduct" FromRole="Category" ToRole="Product" />
+  </EntityType>
+  <Association Name="CategoryProduct">
+    <End Type="ModelFirstDemo.Category" Role="Category" Multiplicity="1" />
+    <End Type="ModelFirstDemo.Product" Role="Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
