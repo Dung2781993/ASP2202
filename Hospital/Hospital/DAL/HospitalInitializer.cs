@@ -11,6 +11,8 @@ namespace Hospital.DAL
         public static void Seed(HospitalContext context)
         {
             SeedPatients(context, 200);
+            SeedMedicaments(context);
+            SeedPrecription(context);
         }
 
         public static void SeedPatients(HospitalContext context, int count)
@@ -20,6 +22,16 @@ namespace Hospital.DAL
                 context.Patients.Add(PatientGenerator.NewPatient(context));
             }
             context.SaveChanges();
+        }
+
+        public static void SeedMedicaments(HospitalContext context)
+        {
+            MedicamentGenerator.InitialMedicamentSeed(context);
+        }
+
+        public static void SeedPrecription(HospitalContext context)
+        {
+            PrescriptionGenerator.InitialPrescriptionSeed(context);
         }
     }
 }

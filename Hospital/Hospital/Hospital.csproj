@@ -128,7 +128,9 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PatientController.cs" />
     <Compile Include="DAL\HospitalContext.cs" />
+    <Compile Include="DAL\HospitalInitializer.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -138,6 +140,12 @@
     <Compile Include="Models\PatientMedicament.cs" />
     <Compile Include="Models\Visitation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Seeding\AddressGenerator.cs" />
+    <Compile Include="Seeding\EmailGenerator.cs" />
+    <Compile Include="Seeding\MedicamentGenerator.cs" />
+    <Compile Include="Seeding\NameGenerator.cs" />
+    <Compile Include="Seeding\PatientGenerator.cs" />
+    <Compile Include="Seeding\PrescriptionGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -175,6 +183,11 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Patient\Create.cshtml" />
+    <Content Include="Views\Patient\Delete.cshtml" />
+    <Content Include="Views\Patient\Details.cshtml" />
+    <Content Include="Views\Patient\Edit.cshtml" />
+    <Content Include="Views\Patient\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
