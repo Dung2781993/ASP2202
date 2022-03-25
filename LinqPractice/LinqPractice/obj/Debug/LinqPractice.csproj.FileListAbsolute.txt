@@ -1,0 +1,8 @@
+D:\Working\src\ASP2202\LinqPractice\LinqPractice\bin\Debug\LinqPractice.exe.config
+D:\Working\src\ASP2202\LinqPractice\LinqPractice\bin\Debug\LinqPractice.exe
+D:\Working\src\ASP2202\LinqPractice\LinqPractice\bin\Debug\LinqPractice.pdb
+D:\Working\src\ASP2202\LinqPractice\LinqPractice\obj\Debug\LinqPractice.csproj.AssemblyReference.cache
+D:\Working\src\ASP2202\LinqPractice\LinqPractice\obj\Debug\LinqPractice.csproj.SuggestedBindingRedirects.cache
+D:\Working\src\ASP2202\LinqPractice\LinqPractice\obj\Debug\LinqPractice.csproj.CoreCompileInputs.cache
+D:\Working\src\ASP2202\LinqPractice\LinqPractice\obj\Debug\LinqPractice.exe
+D:\Working\src\ASP2202\LinqPractice\LinqPractice\obj\Debug\LinqPractice.pdb
