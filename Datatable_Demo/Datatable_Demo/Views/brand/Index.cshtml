@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Datatable_Demo.Models.brand>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+<div class="container-fluid">
+    <table id="demoGrid" class="table table-striped table-bordered dt-responsive nowrap" width="100%" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+<script type="text/javascript" src="~/Style/js/brand_datatable.js"></script>
