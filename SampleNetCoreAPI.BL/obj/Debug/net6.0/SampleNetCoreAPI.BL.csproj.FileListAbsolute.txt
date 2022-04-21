@@ -1,0 +1,17 @@
+D:\Working\src\ASP2202\SampleNetCoreAPI.BL\bin\Debug\net6.0\SampleNetCoreAPI.BL.deps.json
+D:\Working\src\ASP2202\SampleNetCoreAPI.BL\bin\Debug\net6.0\SampleNetCoreAPI.BL.dll
+D:\Working\src\ASP2202\SampleNetCoreAPI.BL\bin\Debug\net6.0\ref\SampleNetCoreAPI.BL.dll
+D:\Working\src\ASP2202\SampleNetCoreAPI.BL\bin\Debug\net6.0\SampleNetCoreAPI.BL.pdb
+D:\Working\src\ASP2202\SampleNetCoreAPI.BL\bin\Debug\net6.0\SampleNetCoreAPI.Core.dll
+D:\Working\src\ASP2202\SampleNetCoreAPI.BL\bin\Debug\net6.0\SampleNetCoreAPI.DAL.dll
+D:\Working\src\ASP2202\SampleNetCoreAPI.BL\bin\Debug\net6.0\SampleNetCoreAPI.DAL.pdb
+D:\Working\src\ASP2202\SampleNetCoreAPI.BL\bin\Debug\net6.0\SampleNetCoreAPI.Core.pdb
+D:\Working\src\ASP2202\SampleNetCoreAPI.BL\obj\Debug\net6.0\SampleNetCoreAPI.BL.csproj.AssemblyReference.cache
+D:\Working\src\ASP2202\SampleNetCoreAPI.BL\obj\Debug\net6.0\SampleNetCoreAPI.BL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Working\src\ASP2202\SampleNetCoreAPI.BL\obj\Debug\net6.0\SampleNetCoreAPI.BL.AssemblyInfoInputs.cache
+D:\Working\src\ASP2202\SampleNetCoreAPI.BL\obj\Debug\net6.0\SampleNetCoreAPI.BL.AssemblyInfo.cs
+D:\Working\src\ASP2202\SampleNetCoreAPI.BL\obj\Debug\net6.0\SampleNetCoreAPI.BL.csproj.CoreCompileInputs.cache
+D:\Working\src\ASP2202\SampleNetCoreAPI.BL\obj\Debug\net6.0\SampleNetCoreAPI.BL.csproj.CopyComplete
+D:\Working\src\ASP2202\SampleNetCoreAPI.BL\obj\Debug\net6.0\SampleNetCoreAPI.BL.dll
+D:\Working\src\ASP2202\SampleNetCoreAPI.BL\obj\Debug\net6.0\ref\SampleNetCoreAPI.BL.dll
+D:\Working\src\ASP2202\SampleNetCoreAPI.BL\obj\Debug\net6.0\SampleNetCoreAPI.BL.pdb
